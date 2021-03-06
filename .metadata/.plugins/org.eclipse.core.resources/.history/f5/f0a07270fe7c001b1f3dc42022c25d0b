@@ -1,0 +1,10 @@
+package DogExercise;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyDog lio = new MyDog("Dachshund", "Lio", 2, "Brown");
+
+	}
+
+}

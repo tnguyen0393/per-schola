@@ -1,0 +1,17 @@
+package FileAndStorage;
+
+import 
+
+public class TestException {
+	
+	public static void main(String[] args) {
+		readFile("some_location")
+
+	}
+
+	
+	public static void readFile(String loc) {
+		int userInput;
+		Scanner sc = new Scanner(System.in);
+	}
+}

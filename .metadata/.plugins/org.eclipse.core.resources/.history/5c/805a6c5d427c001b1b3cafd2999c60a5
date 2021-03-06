@@ -1,0 +1,20 @@
+package FileAndStorage;
+
+import java.util.Scanner;
+
+import java.util.*;
+
+public class TestException {
+	
+	public static void main(String[] args) {
+		readFile("some_location")
+
+	}
+
+	
+	public static void readFile(String loc) {
+		int userInput;
+		Scanner sc = new Scanner(System.in);
+		userInput = sc.nextInt();
+	}
+}

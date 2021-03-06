@@ -1,0 +1,25 @@
+package CoreJava;
+
+import java.util.Arrays;
+
+public class algo {
+
+	public static void main(String[] args) {
+		//1
+		int[] myArray = {1789, 2035, 1899, 1456, 2013, 1458, 24458, 1254, 1472, 2365, 1456, 2165, 1457, 2456};
+		String[] myArray2 = {"Java", "Python", "PHP", "C#", "C Programming", "C++" };
+		Arrays.sort(myArray);
+		System.out.println(Arrays.toString(myArray));
+		Arrays.sort(myArray2);
+		System.out.println(Arrays.toString(myArray2));
+		
+		//2
+		int sum = 0;
+		int myArray3[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		for (int i = 0; i < myArray3.length ; i++) {
+			sum += myArray3[i];
+		}
+		System.out.println(sum);
+	}
+
+}

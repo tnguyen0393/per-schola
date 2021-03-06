@@ -1,0 +1,12 @@
+package InheritanceBank;
+
+public class Account extends Bank{
+	private double balance;
+
+	public Account(String branchLocation) {
+		super(branchLocation);
+		this.balance = 0;
+	}
+	
+	
+}

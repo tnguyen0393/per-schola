@@ -1,0 +1,21 @@
+package FileAndStorage;
+
+public class TestException {
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+	
+	public static void readFile(String loc) {
+		File file = new File(loc);
+		try {
+			FileReader fr = new FileReader(file)
+		} catch {
+			System.out.println("FILE NOT FOUND!!");
+		} finally {
+			System.out.println("This is finally block");
+		}
+	}
+}

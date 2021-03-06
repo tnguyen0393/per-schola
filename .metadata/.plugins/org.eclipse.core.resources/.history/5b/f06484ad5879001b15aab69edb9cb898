@@ -1,0 +1,20 @@
+package OOP;
+
+public class Animal {
+	
+	private int brain;
+	private int body;
+	private int size;
+	private int weight;
+	
+	public Animal(int brain, int body, int size, int weight) {
+		super();
+		this.brain = brain;
+		this.body = body;
+		this.size = size;
+		this.weight = weight;
+	}
+
+	
+	
+}

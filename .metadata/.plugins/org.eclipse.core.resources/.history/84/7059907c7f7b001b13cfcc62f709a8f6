@@ -1,0 +1,14 @@
+
+public class LibraryInterfaceDemo {
+
+	public static void main(String[] args) {
+		
+		KidUsers tien = new KidUsers();
+		KidUsers carlos = new KidUsers();
+		
+		tien.setAge(10);
+		carlos.setAge(18);
+		
+	}
+
+}

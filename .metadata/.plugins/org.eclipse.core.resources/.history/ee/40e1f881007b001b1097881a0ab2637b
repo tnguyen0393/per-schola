@@ -1,0 +1,11 @@
+package OOP;
+
+public abstract class Shap {
+	public abstract double area();
+	public abstract double perimeter();
+	public abstract void draw();
+	
+	public void nonAbstract() {
+;		System.out.println("Not Abstract");
+	}
+}

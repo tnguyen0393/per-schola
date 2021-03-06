@@ -1,0 +1,16 @@
+package InheritanceBank;
+
+public class Bank {
+	public static String bankName = "Bank of America";
+	private String branchLocation;
+	
+	public Bank(String branchLocation) {
+		this.branchLocation = branchLocation;
+	}
+	
+	public static void changeBank(String bankName) {
+		Bank.bankName = bankName;
+		System.out.println("The bank is now " + bankName);
+	}
+	
+}

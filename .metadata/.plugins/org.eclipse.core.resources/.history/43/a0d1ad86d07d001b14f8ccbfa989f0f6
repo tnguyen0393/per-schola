@@ -1,0 +1,69 @@
+package CoreJava;
+
+import java.util.Arrays;
+
+public class algo {
+
+	public static void main(String[] args) {
+		//1
+		int[] myArray = {1789, 2035, 1899, 1456, 2013, 1458, 24458, 1254, 1472, 2365, 1456, 2165, 1457, 2456};
+		String[] myArray2 = {"Java", "Python", "PHP", "C#", "C Programming", "C++" };
+		Arrays.sort(myArray);
+		System.out.println(Arrays.toString(myArray));
+		Arrays.sort(myArray2);
+		System.out.println(Arrays.toString(myArray2));
+		
+		//2
+		int sum = 0;
+		int myArray3[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		for (int i = 0; i < myArray3.length ; i++) {
+			sum += myArray3[i];
+		}
+		System.out.println(sum);
+		
+		//3 
+		for (int i = 0; i < 10 ; i++) {
+			System.out.println("----------");
+		}
+		
+		//4
+		sum = 0;
+		int[] numbers = new int[] {20, 30, 25, 35, -16, 60, -100};
+		for (int i=0; i < numbers.length ; i++) {
+			sum += numbers[i];
+		}
+		System.out.println(sum / numbers.length);
+		
+		//5
+		int[] myArray4 = {1789, 2035, 1899, 1456, 2913, 1458, 2458, 1254, 1472, 2365, 1456, 2265, 1457, 2456};
+		int value = 1254;
+		boolean contains = false;
+		for (int i = 0; i <myArray4.length ; i++) {
+			if (myArray4[i] == value) {
+				contains = true;
+				break;
+			}
+		}
+		System.out.println(contains);
+		
+		//6
+		int myValue = 14;
+		int[] myArray5 = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+		for(int i = 0; i < myArray5.length ; i++) {
+			if(myValue == myArray5[i]) {
+				System.out.println(i);
+				break;
+			}
+		}
+		
+		//7
+		int remove = 77;
+		int[] myArray6 = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+		for (int i = 0 ; i < myArray6.length ; i++) {
+			if (myArray6[i] == remove) {
+				int[] newArray = new int[myArray6.length - 1]
+			}
+		}
+	}
+
+}

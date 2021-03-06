@@ -1,0 +1,12 @@
+package com.perscholas.cafe;
+
+public class CafeApp {
+
+	public static void main(String[] args) {
+		Product coffee = new Product("coffee", 1.00, "Yummy Coffee");
+		Product espresso = new Product("espresso", 2.00, "Strong espresso")
+		
+
+	}
+
+}

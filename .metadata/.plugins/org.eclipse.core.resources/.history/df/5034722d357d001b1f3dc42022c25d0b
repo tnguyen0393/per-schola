@@ -1,0 +1,14 @@
+package InheritanceBank;
+
+public class Checking extends Account {
+	
+
+	public Checking(String branchLocation) {
+		super(branchLocation, balance);
+		
+		this.branchLocation = branchLocation;
+		this.balance = 0;
+	}
+
+
+}
